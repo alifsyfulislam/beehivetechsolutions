@@ -1,0 +1,514 @@
+{
+	"info": {
+		"_postman_id": "88bc600e-c764-46a2-a518-7a103e559714",
+		"name": "beehivetechsolutions",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "news",
+			"item": [
+				{
+					"name": "get",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiOWNhM2Y4MWM0YTFmOWM3ZjdjYzVhNGQ4YzlhY2ZlMTA0NDFiNzEwMDc0NjMyMGI0MTgyMmNjN2MxZGQzMDA3NDBhMWY3ZTE2NzQxOTAyZTMiLCJpYXQiOjE2MzkwNTA4NDcuOTA0NTA4LCJuYmYiOjE2MzkwNTA4NDcuOTA0NTE0LCJleHAiOjE2NzA1ODY4NDcuOTAwOTQ1LCJzdWIiOiIxNjM5MDUwNzg5NDQ2MyIsInNjb3BlcyI6W119.fsf8C_G4sw5fY_g5FBqmpapdSjeMuwuIJeCoj8pwPiiMflPb9OSxswIc82BU7JraKe9vQWfn7ITOgrXhNA236yif8AsVktEXBeFkbuh5R65Rmp2NGtcAugOEhg3RHi-3MHvdr9sZJGOMXyUrjrbLH_2qmRuQkc3-_icJrMb_obNGFxRN5Bazw--ObP4ANjP-57qXPBZa7WddJwTAqj7gZhcXSVvR1mpvT0jPmY-ZRh6SqWdoj6jfWi2xdC0Xf4wypJuqgi31AJZ4U-M1HFW_xdqVtQYz3mn4Klh5eONu81atjmX63hwB3KXOUSbJU6R1gEBqgonOfB8nC6r-3L7gJ-ogB91BaUIA4y8VkhVoqzDPXDHQOyeFphsdqUN_W1OUYWeekcW1BDte3fsapC5AXOZO1hH286ZvwEp22C6W_2bKa9LeKn2M2XgOxXgI-H4_iDJIs2bQoMCtZT7VXmjpgWYLVNfZDjsNgom0xFxwxQLFhX67-J6_C3aAZBFCcCnDUXt6ti8wF6DvxV_MtNUn5Hw7WK0ei7gK3pNHyivd2HIxJczvlx6dtVz5JinP9LXZgyB2nCqgCfIWt5rWvcBQZhMQ8L97Nmvw7VJAortUK2dEMv0PV7qARSsaxwBC2Kl9DwA638aiBJJuhOzmFTZUqJm7XqGshkKOjNLtGvXTF6o",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{beehivetechsolutions}}news",
+							"host": [
+								"{{beehivetechsolutions}}news"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "post",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiY2E3NzIxMDUyMzE1NGFjNWYwYmIxMTU3ZDJjNDI2ZjYyOGE4NDc1OTNmMGE4N2JkMmY4MDg4NWIxODIzNGE4ZTQzZDNjZWU2OTM2ZDkxYTUiLCJpYXQiOjE2MzkzMDk3NjkuNzY3MDM4LCJuYmYiOjE2MzkzMDk3NjkuNzY3MDQzLCJleHAiOjE2NzA4NDU3NjkuNzYyOTM5LCJzdWIiOiIxNjM5MzA4NjgyNTk0MiIsInNjb3BlcyI6W119.dMrXiQUxfM-5Kb--Ln06I0Nu0WVrylrq8huWLfVbPmnx8mf-xLpZQREh_a8RkqWPZoA4dxTSx0ocoUO_qc2yz5zbpcp59IPlI80_OMqFaPK_DeCP9CS0AODoCW-xy0bAFbMd3fbFZTsYEuNgX8kMfCXviR79wmXIF-zlyGuv26Xd3VL0gExul74-k446kfulYhiJFJdusdBUaXTIiykwhcLWPxELhnMxluL0yhofXPUFm44pkVxy9y4U7plyYdqAzqR01GSXnJQgEZZkW-W2tqc0l5Pqt1VLnoPD1Ppq6VSsPr-jHdbzyEQDe5orvNkZWw2ojgmQBeqGQQYJUl1GVybLljCItu1qdPOMhIH42UnssSA2nbMAPhLeM_HFHv9x6KvLYjHjYi9d7hYBz8juIwnU05Rpb0twH9xw7uMCBy-F7nmj0n-rBH_b63fbLc0JTPJqhHwywrdDmRxyi-k7QZrlQbK4Q0lV_W5_IKBX9CIDjeYOLzNVho15t890L1Ubftzm5Eis3DMO87xpRodqd25IxRwxARF6h7v7qDUnbpN7cztA2UeOebQqc3CTzhmKPRCMW_1QSXIMh8EqMnGbrHDGizAJG3yE-de1wH-q5iTJBvvlI8ybsay-avfJ6-UT8oylApsJq8xljCXa58P8ieO_VBlfGQQoyaobkQcBHBg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "title",
+									"value": "Benefits of Async/Await in Programming",
+									"type": "text"
+								},
+								{
+									"key": "user_id",
+									"value": "16393086825942",
+									"type": "text"
+								},
+								{
+									"key": "status",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "details",
+									"value": "The main benefits of asynchronous programming using async / await include the following:\n\nIncrease the performance and responsiveness of your application, particularly when you have long-running operations that do not require to block the execution. In this case, you can perform other work while waiting for the result from the long running task.\n\nOrganize your code in a neat and readable way significantly better than boilerplate code of the traditional thread creation and handling. with async / await , you write less code and your code will be more maintainable than using the previous asynchronous programming methods such as using plain tasks.\n\nasync / await is the newer replacement to BackgroundWorker, which has been used on windows forms desktop applications.\n\nYou make use of the latest upgrades of the language features, as async / await was introduced in C# 5, and there have been some improvements added to the feature like foreach async and generalized async type like ValueTask.",
+									"type": "text"
+								},
+								{
+									"key": "media",
+									"type": "file",
+									"src": "/C:/Users/alifs/OneDrive/Desktop/images.png"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{beehivetechsolutions}}news",
+							"host": [
+								"{{beehivetechsolutions}}news"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "banner",
+			"item": [
+				{
+					"name": "post",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiY2E3NzIxMDUyMzE1NGFjNWYwYmIxMTU3ZDJjNDI2ZjYyOGE4NDc1OTNmMGE4N2JkMmY4MDg4NWIxODIzNGE4ZTQzZDNjZWU2OTM2ZDkxYTUiLCJpYXQiOjE2MzkzMDk3NjkuNzY3MDM4LCJuYmYiOjE2MzkzMDk3NjkuNzY3MDQzLCJleHAiOjE2NzA4NDU3NjkuNzYyOTM5LCJzdWIiOiIxNjM5MzA4NjgyNTk0MiIsInNjb3BlcyI6W119.dMrXiQUxfM-5Kb--Ln06I0Nu0WVrylrq8huWLfVbPmnx8mf-xLpZQREh_a8RkqWPZoA4dxTSx0ocoUO_qc2yz5zbpcp59IPlI80_OMqFaPK_DeCP9CS0AODoCW-xy0bAFbMd3fbFZTsYEuNgX8kMfCXviR79wmXIF-zlyGuv26Xd3VL0gExul74-k446kfulYhiJFJdusdBUaXTIiykwhcLWPxELhnMxluL0yhofXPUFm44pkVxy9y4U7plyYdqAzqR01GSXnJQgEZZkW-W2tqc0l5Pqt1VLnoPD1Ppq6VSsPr-jHdbzyEQDe5orvNkZWw2ojgmQBeqGQQYJUl1GVybLljCItu1qdPOMhIH42UnssSA2nbMAPhLeM_HFHv9x6KvLYjHjYi9d7hYBz8juIwnU05Rpb0twH9xw7uMCBy-F7nmj0n-rBH_b63fbLc0JTPJqhHwywrdDmRxyi-k7QZrlQbK4Q0lV_W5_IKBX9CIDjeYOLzNVho15t890L1Ubftzm5Eis3DMO87xpRodqd25IxRwxARF6h7v7qDUnbpN7cztA2UeOebQqc3CTzhmKPRCMW_1QSXIMh8EqMnGbrHDGizAJG3yE-de1wH-q5iTJBvvlI8ybsay-avfJ6-UT8oylApsJq8xljCXa58P8ieO_VBlfGQQoyaobkQcBHBg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "user_id",
+									"value": "16393086825942",
+									"type": "text"
+								},
+								{
+									"key": "title",
+									"value": "Web Design & Development",
+									"type": "text"
+								},
+								{
+									"key": "details",
+									"value": "The concept of web design and development has been around for about as long as websites have existed. It used to have a much simpler definition because website creation used to be a much simpler process.\n\nWhen you compare the first website, which came out in 1991, to modern websites, you can really see how much websites have evolved. Today, creating and maintaining a website is more complex, and involves an entire ecosystem of roles and skill sets.\n\nFor designers, it can be difficult to know exactly where you fit into this ecosystem. This article outlines the major aspects of the website creation process, offering a clear picture of your role, the roles of others, and the skill sets involved.",
+									"type": "text"
+								},
+								{
+									"key": "media",
+									"type": "file",
+									"src": "/C:/wamp64/www/beehivetechsolutions/public/ui-asset/images/slider-classic-slide-3-1920x710.jpg"
+								},
+								{
+									"key": "status",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{beehivetechsolutions}}banners",
+							"host": [
+								"{{beehivetechsolutions}}banners"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "choose",
+			"item": [
+				{
+					"name": "getAll",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiY2E3NzIxMDUyMzE1NGFjNWYwYmIxMTU3ZDJjNDI2ZjYyOGE4NDc1OTNmMGE4N2JkMmY4MDg4NWIxODIzNGE4ZTQzZDNjZWU2OTM2ZDkxYTUiLCJpYXQiOjE2MzkzMDk3NjkuNzY3MDM4LCJuYmYiOjE2MzkzMDk3NjkuNzY3MDQzLCJleHAiOjE2NzA4NDU3NjkuNzYyOTM5LCJzdWIiOiIxNjM5MzA4NjgyNTk0MiIsInNjb3BlcyI6W119.dMrXiQUxfM-5Kb--Ln06I0Nu0WVrylrq8huWLfVbPmnx8mf-xLpZQREh_a8RkqWPZoA4dxTSx0ocoUO_qc2yz5zbpcp59IPlI80_OMqFaPK_DeCP9CS0AODoCW-xy0bAFbMd3fbFZTsYEuNgX8kMfCXviR79wmXIF-zlyGuv26Xd3VL0gExul74-k446kfulYhiJFJdusdBUaXTIiykwhcLWPxELhnMxluL0yhofXPUFm44pkVxy9y4U7plyYdqAzqR01GSXnJQgEZZkW-W2tqc0l5Pqt1VLnoPD1Ppq6VSsPr-jHdbzyEQDe5orvNkZWw2ojgmQBeqGQQYJUl1GVybLljCItu1qdPOMhIH42UnssSA2nbMAPhLeM_HFHv9x6KvLYjHjYi9d7hYBz8juIwnU05Rpb0twH9xw7uMCBy-F7nmj0n-rBH_b63fbLc0JTPJqhHwywrdDmRxyi-k7QZrlQbK4Q0lV_W5_IKBX9CIDjeYOLzNVho15t890L1Ubftzm5Eis3DMO87xpRodqd25IxRwxARF6h7v7qDUnbpN7cztA2UeOebQqc3CTzhmKPRCMW_1QSXIMh8EqMnGbrHDGizAJG3yE-de1wH-q5iTJBvvlI8ybsay-avfJ6-UT8oylApsJq8xljCXa58P8ieO_VBlfGQQoyaobkQcBHBg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{beehivetechsolutions}}chooses",
+							"host": [
+								"{{beehivetechsolutions}}chooses"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "post",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiY2E3NzIxMDUyMzE1NGFjNWYwYmIxMTU3ZDJjNDI2ZjYyOGE4NDc1OTNmMGE4N2JkMmY4MDg4NWIxODIzNGE4ZTQzZDNjZWU2OTM2ZDkxYTUiLCJpYXQiOjE2MzkzMDk3NjkuNzY3MDM4LCJuYmYiOjE2MzkzMDk3NjkuNzY3MDQzLCJleHAiOjE2NzA4NDU3NjkuNzYyOTM5LCJzdWIiOiIxNjM5MzA4NjgyNTk0MiIsInNjb3BlcyI6W119.dMrXiQUxfM-5Kb--Ln06I0Nu0WVrylrq8huWLfVbPmnx8mf-xLpZQREh_a8RkqWPZoA4dxTSx0ocoUO_qc2yz5zbpcp59IPlI80_OMqFaPK_DeCP9CS0AODoCW-xy0bAFbMd3fbFZTsYEuNgX8kMfCXviR79wmXIF-zlyGuv26Xd3VL0gExul74-k446kfulYhiJFJdusdBUaXTIiykwhcLWPxELhnMxluL0yhofXPUFm44pkVxy9y4U7plyYdqAzqR01GSXnJQgEZZkW-W2tqc0l5Pqt1VLnoPD1Ppq6VSsPr-jHdbzyEQDe5orvNkZWw2ojgmQBeqGQQYJUl1GVybLljCItu1qdPOMhIH42UnssSA2nbMAPhLeM_HFHv9x6KvLYjHjYi9d7hYBz8juIwnU05Rpb0twH9xw7uMCBy-F7nmj0n-rBH_b63fbLc0JTPJqhHwywrdDmRxyi-k7QZrlQbK4Q0lV_W5_IKBX9CIDjeYOLzNVho15t890L1Ubftzm5Eis3DMO87xpRodqd25IxRwxARF6h7v7qDUnbpN7cztA2UeOebQqc3CTzhmKPRCMW_1QSXIMh8EqMnGbrHDGizAJG3yE-de1wH-q5iTJBvvlI8ybsay-avfJ6-UT8oylApsJq8xljCXa58P8ieO_VBlfGQQoyaobkQcBHBg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "title",
+									"value": "High Quality Hardware",
+									"type": "text"
+								},
+								{
+									"key": "details",
+									"value": "We use top-notch, highly configurable hardware to develop websites, apps, or software, or service-related activities.",
+									"type": "text"
+								},
+								{
+									"key": "user_id",
+									"value": "16393086825942",
+									"type": "text"
+								},
+								{
+									"key": "media",
+									"type": "file",
+									"src": "/C:/Users/alifs/Downloads/Computer-Hardware-Workstation-icon.png"
+								},
+								{
+									"key": "status",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{beehivetechsolutions}}chooses",
+							"host": [
+								"{{beehivetechsolutions}}chooses"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "put",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiY2E3NzIxMDUyMzE1NGFjNWYwYmIxMTU3ZDJjNDI2ZjYyOGE4NDc1OTNmMGE4N2JkMmY4MDg4NWIxODIzNGE4ZTQzZDNjZWU2OTM2ZDkxYTUiLCJpYXQiOjE2MzkzMDk3NjkuNzY3MDM4LCJuYmYiOjE2MzkzMDk3NjkuNzY3MDQzLCJleHAiOjE2NzA4NDU3NjkuNzYyOTM5LCJzdWIiOiIxNjM5MzA4NjgyNTk0MiIsInNjb3BlcyI6W119.dMrXiQUxfM-5Kb--Ln06I0Nu0WVrylrq8huWLfVbPmnx8mf-xLpZQREh_a8RkqWPZoA4dxTSx0ocoUO_qc2yz5zbpcp59IPlI80_OMqFaPK_DeCP9CS0AODoCW-xy0bAFbMd3fbFZTsYEuNgX8kMfCXviR79wmXIF-zlyGuv26Xd3VL0gExul74-k446kfulYhiJFJdusdBUaXTIiykwhcLWPxELhnMxluL0yhofXPUFm44pkVxy9y4U7plyYdqAzqR01GSXnJQgEZZkW-W2tqc0l5Pqt1VLnoPD1Ppq6VSsPr-jHdbzyEQDe5orvNkZWw2ojgmQBeqGQQYJUl1GVybLljCItu1qdPOMhIH42UnssSA2nbMAPhLeM_HFHv9x6KvLYjHjYi9d7hYBz8juIwnU05Rpb0twH9xw7uMCBy-F7nmj0n-rBH_b63fbLc0JTPJqhHwywrdDmRxyi-k7QZrlQbK4Q0lV_W5_IKBX9CIDjeYOLzNVho15t890L1Ubftzm5Eis3DMO87xpRodqd25IxRwxARF6h7v7qDUnbpN7cztA2UeOebQqc3CTzhmKPRCMW_1QSXIMh8EqMnGbrHDGizAJG3yE-de1wH-q5iTJBvvlI8ybsay-avfJ6-UT8oylApsJq8xljCXa58P8ieO_VBlfGQQoyaobkQcBHBg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "_method",
+									"value": "PUT",
+									"type": "text"
+								},
+								{
+									"key": "user_id",
+									"value": "16393086825942",
+									"type": "text"
+								},
+								{
+									"key": "title",
+									"value": "Data Security",
+									"type": "text"
+								},
+								{
+									"key": "details",
+									"value": "We use secure algorithms, multi-factor authentication and real-time monitoring to prevent intrusion detection, virus, malware attack and more.",
+									"type": "text"
+								},
+								{
+									"key": "status",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "media",
+									"type": "file",
+									"src": "/C:/Users/alifs/Downloads/Computer-Hardware-Workstation-icon.png"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{beehivetechsolutions}}chooses/16393115145750",
+							"host": [
+								"{{beehivetechsolutions}}chooses"
+							],
+							"path": [
+								"16393115145750"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "service",
+			"item": [
+				{
+					"name": "post",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiY2E3NzIxMDUyMzE1NGFjNWYwYmIxMTU3ZDJjNDI2ZjYyOGE4NDc1OTNmMGE4N2JkMmY4MDg4NWIxODIzNGE4ZTQzZDNjZWU2OTM2ZDkxYTUiLCJpYXQiOjE2MzkzMDk3NjkuNzY3MDM4LCJuYmYiOjE2MzkzMDk3NjkuNzY3MDQzLCJleHAiOjE2NzA4NDU3NjkuNzYyOTM5LCJzdWIiOiIxNjM5MzA4NjgyNTk0MiIsInNjb3BlcyI6W119.dMrXiQUxfM-5Kb--Ln06I0Nu0WVrylrq8huWLfVbPmnx8mf-xLpZQREh_a8RkqWPZoA4dxTSx0ocoUO_qc2yz5zbpcp59IPlI80_OMqFaPK_DeCP9CS0AODoCW-xy0bAFbMd3fbFZTsYEuNgX8kMfCXviR79wmXIF-zlyGuv26Xd3VL0gExul74-k446kfulYhiJFJdusdBUaXTIiykwhcLWPxELhnMxluL0yhofXPUFm44pkVxy9y4U7plyYdqAzqR01GSXnJQgEZZkW-W2tqc0l5Pqt1VLnoPD1Ppq6VSsPr-jHdbzyEQDe5orvNkZWw2ojgmQBeqGQQYJUl1GVybLljCItu1qdPOMhIH42UnssSA2nbMAPhLeM_HFHv9x6KvLYjHjYi9d7hYBz8juIwnU05Rpb0twH9xw7uMCBy-F7nmj0n-rBH_b63fbLc0JTPJqhHwywrdDmRxyi-k7QZrlQbK4Q0lV_W5_IKBX9CIDjeYOLzNVho15t890L1Ubftzm5Eis3DMO87xpRodqd25IxRwxARF6h7v7qDUnbpN7cztA2UeOebQqc3CTzhmKPRCMW_1QSXIMh8EqMnGbrHDGizAJG3yE-de1wH-q5iTJBvvlI8ybsay-avfJ6-UT8oylApsJq8xljCXa58P8ieO_VBlfGQQoyaobkQcBHBg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "title",
+									"value": "Graphics Design",
+									"type": "text"
+								},
+								{
+									"key": "details",
+									"value": "Staying up-to-date with the universe of design is significant because there is no limit to planning, as everyone knows. It is constantly changing, with new concepts emerging and old ideas returning to be polished. We do not want our customers to fall into obscurity. Whether customers are looking for a spectacular new logo, business card, attractive banner, stationery, stunning flyers, outstanding posters, and web design for their company or brand, the expert community of designers at Beehive Tech Solutions can make it happen.\n\nWebsites, infographics, typography, and other sections related to visual interfaces are all much more than just words and products; they are also images and art. Visuals convert faster than words alone. Visual presentation impacts a better understanding of customers’ products and services and helps them see the benefits they offer. Graphic design is a vital part of any business, and that is as true for a customer's company or brand image as it is for their marketing.\n\nAt Beehive Tech Solutions, we offer a multitude of graphic design services and more. Customers are aware of their company's operations, and websites rely far too heavily on what everyone displays among them.\n\nLogo Design: This shows a strong brand identity.\n\nBrochure Design: Brochure design is a process of converting customers by using altered media.\n\nFlyer Design: Flyers are the best tools for corporate marketing.\n\nNewsletter Designing: Be in touch with customers by designing newsletters.\n\nStationery Designs: We accelerate customers' first impressions of their business.\n\nUI/UX Design: User interfaces enable users to understand and create impressions to get clicks based on their experience.",
+									"type": "text"
+								},
+								{
+									"key": "status",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "media",
+									"type": "file",
+									"src": "/C:/Users/alifs/Downloads/img_548245.png"
+								},
+								{
+									"key": "user_id",
+									"value": "16393086825942",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{beehivetechsolutions}}services",
+							"host": [
+								"{{beehivetechsolutions}}services"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiY2E3NzIxMDUyMzE1NGFjNWYwYmIxMTU3ZDJjNDI2ZjYyOGE4NDc1OTNmMGE4N2JkMmY4MDg4NWIxODIzNGE4ZTQzZDNjZWU2OTM2ZDkxYTUiLCJpYXQiOjE2MzkzMDk3NjkuNzY3MDM4LCJuYmYiOjE2MzkzMDk3NjkuNzY3MDQzLCJleHAiOjE2NzA4NDU3NjkuNzYyOTM5LCJzdWIiOiIxNjM5MzA4NjgyNTk0MiIsInNjb3BlcyI6W119.dMrXiQUxfM-5Kb--Ln06I0Nu0WVrylrq8huWLfVbPmnx8mf-xLpZQREh_a8RkqWPZoA4dxTSx0ocoUO_qc2yz5zbpcp59IPlI80_OMqFaPK_DeCP9CS0AODoCW-xy0bAFbMd3fbFZTsYEuNgX8kMfCXviR79wmXIF-zlyGuv26Xd3VL0gExul74-k446kfulYhiJFJdusdBUaXTIiykwhcLWPxELhnMxluL0yhofXPUFm44pkVxy9y4U7plyYdqAzqR01GSXnJQgEZZkW-W2tqc0l5Pqt1VLnoPD1Ppq6VSsPr-jHdbzyEQDe5orvNkZWw2ojgmQBeqGQQYJUl1GVybLljCItu1qdPOMhIH42UnssSA2nbMAPhLeM_HFHv9x6KvLYjHjYi9d7hYBz8juIwnU05Rpb0twH9xw7uMCBy-F7nmj0n-rBH_b63fbLc0JTPJqhHwywrdDmRxyi-k7QZrlQbK4Q0lV_W5_IKBX9CIDjeYOLzNVho15t890L1Ubftzm5Eis3DMO87xpRodqd25IxRwxARF6h7v7qDUnbpN7cztA2UeOebQqc3CTzhmKPRCMW_1QSXIMh8EqMnGbrHDGizAJG3yE-de1wH-q5iTJBvvlI8ybsay-avfJ6-UT8oylApsJq8xljCXa58P8ieO_VBlfGQQoyaobkQcBHBg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{beehivetechsolutions}}services/16393104565767",
+							"host": [
+								"{{beehivetechsolutions}}services"
+							],
+							"path": [
+								"16393104565767"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "client",
+			"item": [
+				{
+					"name": "getAll",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiY2E3NzIxMDUyMzE1NGFjNWYwYmIxMTU3ZDJjNDI2ZjYyOGE4NDc1OTNmMGE4N2JkMmY4MDg4NWIxODIzNGE4ZTQzZDNjZWU2OTM2ZDkxYTUiLCJpYXQiOjE2MzkzMDk3NjkuNzY3MDM4LCJuYmYiOjE2MzkzMDk3NjkuNzY3MDQzLCJleHAiOjE2NzA4NDU3NjkuNzYyOTM5LCJzdWIiOiIxNjM5MzA4NjgyNTk0MiIsInNjb3BlcyI6W119.dMrXiQUxfM-5Kb--Ln06I0Nu0WVrylrq8huWLfVbPmnx8mf-xLpZQREh_a8RkqWPZoA4dxTSx0ocoUO_qc2yz5zbpcp59IPlI80_OMqFaPK_DeCP9CS0AODoCW-xy0bAFbMd3fbFZTsYEuNgX8kMfCXviR79wmXIF-zlyGuv26Xd3VL0gExul74-k446kfulYhiJFJdusdBUaXTIiykwhcLWPxELhnMxluL0yhofXPUFm44pkVxy9y4U7plyYdqAzqR01GSXnJQgEZZkW-W2tqc0l5Pqt1VLnoPD1Ppq6VSsPr-jHdbzyEQDe5orvNkZWw2ojgmQBeqGQQYJUl1GVybLljCItu1qdPOMhIH42UnssSA2nbMAPhLeM_HFHv9x6KvLYjHjYi9d7hYBz8juIwnU05Rpb0twH9xw7uMCBy-F7nmj0n-rBH_b63fbLc0JTPJqhHwywrdDmRxyi-k7QZrlQbK4Q0lV_W5_IKBX9CIDjeYOLzNVho15t890L1Ubftzm5Eis3DMO87xpRodqd25IxRwxARF6h7v7qDUnbpN7cztA2UeOebQqc3CTzhmKPRCMW_1QSXIMh8EqMnGbrHDGizAJG3yE-de1wH-q5iTJBvvlI8ybsay-avfJ6-UT8oylApsJq8xljCXa58P8ieO_VBlfGQQoyaobkQcBHBg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{beehivetechsolutions}}clients",
+							"host": [
+								"{{beehivetechsolutions}}clients"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "post",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiY2E3NzIxMDUyMzE1NGFjNWYwYmIxMTU3ZDJjNDI2ZjYyOGE4NDc1OTNmMGE4N2JkMmY4MDg4NWIxODIzNGE4ZTQzZDNjZWU2OTM2ZDkxYTUiLCJpYXQiOjE2MzkzMDk3NjkuNzY3MDM4LCJuYmYiOjE2MzkzMDk3NjkuNzY3MDQzLCJleHAiOjE2NzA4NDU3NjkuNzYyOTM5LCJzdWIiOiIxNjM5MzA4NjgyNTk0MiIsInNjb3BlcyI6W119.dMrXiQUxfM-5Kb--Ln06I0Nu0WVrylrq8huWLfVbPmnx8mf-xLpZQREh_a8RkqWPZoA4dxTSx0ocoUO_qc2yz5zbpcp59IPlI80_OMqFaPK_DeCP9CS0AODoCW-xy0bAFbMd3fbFZTsYEuNgX8kMfCXviR79wmXIF-zlyGuv26Xd3VL0gExul74-k446kfulYhiJFJdusdBUaXTIiykwhcLWPxELhnMxluL0yhofXPUFm44pkVxy9y4U7plyYdqAzqR01GSXnJQgEZZkW-W2tqc0l5Pqt1VLnoPD1Ppq6VSsPr-jHdbzyEQDe5orvNkZWw2ojgmQBeqGQQYJUl1GVybLljCItu1qdPOMhIH42UnssSA2nbMAPhLeM_HFHv9x6KvLYjHjYi9d7hYBz8juIwnU05Rpb0twH9xw7uMCBy-F7nmj0n-rBH_b63fbLc0JTPJqhHwywrdDmRxyi-k7QZrlQbK4Q0lV_W5_IKBX9CIDjeYOLzNVho15t890L1Ubftzm5Eis3DMO87xpRodqd25IxRwxARF6h7v7qDUnbpN7cztA2UeOebQqc3CTzhmKPRCMW_1QSXIMh8EqMnGbrHDGizAJG3yE-de1wH-q5iTJBvvlI8ybsay-avfJ6-UT8oylApsJq8xljCXa58P8ieO_VBlfGQQoyaobkQcBHBg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "first_name",
+									"value": "Atif",
+									"type": "text"
+								},
+								{
+									"key": "middle_name",
+									"value": "Akram",
+									"type": "text"
+								},
+								{
+									"key": "last_name",
+									"value": "Bhuiyan",
+									"type": "text"
+								},
+								{
+									"key": "type",
+									"value": "Regular Client",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "atifakrambhuiyan@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "user_id",
+									"value": "16393086825942",
+									"type": "text"
+								},
+								{
+									"key": "media",
+									"type": "file",
+									"src": "/C:/wamp64/www/beehivetechsolutions/public/ui-asset/images/team-1-230x211.jpg"
+								},
+								{
+									"key": "status",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "details",
+									"value": "Beehive Tech Solutions offers a high caliber of resources skilled in Microsoft Azure .NET, mobile and Quality Assurance. They became our true business partners over the past three years of our cooperation.",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{beehivetechsolutions}}clients",
+							"host": [
+								"{{beehivetechsolutions}}clients"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{beehivetechsolutions}}login",
+					"host": [
+						"{{beehivetechsolutions}}login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
